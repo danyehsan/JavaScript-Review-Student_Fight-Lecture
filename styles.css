@@ -1,3 +1,9 @@
+#body {
+    background: url(http://7-themes.com/data_images/out/67/7002156-mortal-kombat-logo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 h1 { text-align: center;}
 
 .green { color: #00FF00; }
@@ -17,13 +23,15 @@ h1 { text-align: center;}
 }
 
 .fight-box {
-  width: 300px;
+  width: 350px;
   height: 300px;
   color: white;
   background-color: silver;
   border: solid 1px black;
   cursor: pointer;
-  background: url(http://www.boomsales.com.au/cms/wp-content/uploads/2016/11/iStock_66710077_MEDIUM-1024x519.jpg)
+  background: url(https://i.ytimg.com/vi/EAwWPadFsOA/maxresdefault.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 #fight_zone {
@@ -31,9 +39,15 @@ h1 { text-align: center;}
 }
 
 #loading_zone {
+  color: white;
+  font-style: bolder;
   border: solid 1px black;
   min-height: 100px;
-  width: 300px;
+  width: 350px;
   cursor: pointer;
-  background: red;
+  background: url(https://wallpaper-house.com/data/out/8/wallpaper2you_260485.jpg);
+
+  background-size: cover;
+  background-position: center;  
 }
+
