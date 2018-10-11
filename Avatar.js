@@ -1,18 +1,16 @@
-const Avatar = (position, { name, avatar }) => (
-    `<h5
-        id='fighter_${position}'
-        data-name='${name}'
-        data-avatar='${avatar}'
-        class='center fighter'
-    >
-        ${name}
+import React from 'react'
+
+const Avatar = ({ name, avatar }) => (
+  <div>
+    <h5 className='center fighter'>
+      {name}
     </h5>
     <img
-        class='avatar'
-        src=${avatar}'
-        alt='avatar'
+      className='avatar'
+      src={avatar}
+      alt='avatar'
     />
-    `
+  </div>
 )
 
 export default Avatar
