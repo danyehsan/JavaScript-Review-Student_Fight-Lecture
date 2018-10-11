@@ -1,22 +1,39 @@
-h1 { text-align: center }
+h1 { text-align: center;}
+
+.green { color: #00FF00; }
 
 .left {
-    float: left;
+  float: left;
 }
 
 .center { text-align: center; }
 
 .avatar {
-    border-radius: 100%;
-    margin-left: 25%;
-    margin-top: 10%;
-    height: 120px;
-    width: 230px;
+  border-radius: 100%;
+  margin-left: 25%;
+  margin-top: 10%;
+  height: 120px;
+  width: 120px;
 }
 
 .fight-box {
-    width: 300ox;
-    height: 300px;
-    background-color:#98FB98;
-    border:
+  width: 300px;
+  height: 300px;
+  color: white;
+  background-color: silver;
+  border: solid 1px black;
+  cursor: pointer;
+  background: url(http://www.boomsales.com.au/cms/wp-content/uploads/2016/11/iStock_66710077_MEDIUM-1024x519.jpg)
+}
+
+#fight_zone {
+  margin-left: 14%;
+}
+
+#loading_zone {
+  border: solid 1px black;
+  min-height: 100px;
+  width: 300px;
+  cursor: pointer;
+  background: red;
 }
